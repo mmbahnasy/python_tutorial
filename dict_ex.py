@@ -1,9 +1,8 @@
 
-str = input("Enter string:")
+str = input("Enter String>>")
 wordList = str.split(" ")
 
-wordDict = {}
-
+wordDict = {} # Key is the word: value number of repetition
 for word in wordList:
     # if word not in wordDict:
     #     wordDict[word] = 0
